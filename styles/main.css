@@ -1,5 +1,7 @@
 @import url(../styles/projects.css);
 @import url(../styles/footer.css);
+@import url(../styles/intro.css);
+@import url(../styles/about.css);
 
 body {
     font-family: 'Manrope', Courier, monospace;  
@@ -22,16 +24,6 @@ h1, h2, h3, div, p, a {
     width: 1150px 
 }
 
-.intro__title {
-    width: 965px;
-    font-size: 60px;
-    line-height: 56px;   
-}
-
-.about__title {
-    font-size: 18px;
-    line-height: 29px;   
-}
 
 h3 {
     font-size: 30px;
@@ -70,62 +62,6 @@ header {
 
 .head__link:last-child {
     margin-right: 0px;
-}
-
-.intro {
-    margin-top: 74px;
-}
-
-.about {
-    margin-top: 150px;
-}
-
-.about__subtitle {
-    width: 1048px; 
-    font-size: 45px;
-    line-height: 61.47px;
-    margin-top: 30px;
-    color: #121212;  
-}
-
-.intro__image {
-    width: 1150px;
-    height: 500px;
-    margin-top: 30px;
-    background-image: url('../resources/image-body.png');
-    position: relative;
-    background-size: cover;
-}
-
-.intro__image__text {
-    width: 430px;
-    position: absolute;
-    top: 379px;
-    left: 40px;
-    font-size: 20px;
-    line-height: 29px; 
-    color: #FFFFFF;
-}
-
-.about__btn {
-    display: block;
-    width: 255px;
-    height: 67px;
-    margin-top: 30px;
-    border-radius: 5px;
-    font-size: 20px;
-    line-height: 62px;
-    cursor: pointer;
-    border: 1px solid #AD1818;
-    text-align: center;
-    text-decoration: none;
-    color: #FFFFFF;
-    background-color: #AD1818;
-}
-
-.about__btn:hover {
-    color: #AD1818;
-    background-color: #FFFFFF;
 }
 
 .services { 
@@ -210,113 +146,8 @@ header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 1149px) {
+@media (max-width: 1199px) {
     .container {
         width: 100%;
-        padding-left: 17px;
-        padding-right: 15px;
-    }
-
-    .intro__title {
-        width: 100%;
-        font-size: 50px;
-        line-height: 56px;   
-    }
-
-    .intro__image {
-        width: 100%;
-        height: 400px;
-        margin-top: 30px;
-        background-image: url('../resources/image-body.png');
-    }
-
-    .intro__image__text {
-        width: 430px;
-        top: 269px;
-        left: 25px;
-    }
-
-    .about {
-        margin-top: 120px;
-    }
-
-    .about__title {
-        font-size: 18px;
-        line-height: 29px;   
-    }
-
-    .about__subtitle {
-        width: 690px; 
-        font-size: 35px;
-        line-height: 51.47px;
-        margin-top: 30px;
-        color: #121212;  
-    }
-
-    .about__btn {
-        width: 255px;
-        height: 67px;
-    }
-}
-
-@media (max-width: 767px) {
-    .container {
-        padding-left: 13px;
-        padding-right: 17px;
-    }
-
-    .intro {
-        margin-top: 61px;
-    }
-
-    .intro__image {
-        margin-top: 25px;
-    }
-
-    .intro__title {
-        width: 100%;
-        font-size: 30px;
-        line-height: 31px;   
-    }
-
-    .intro__image {
-        width: 100%;
-        height: 304px;
-        margin-top: 25px;
-        background-image: url('../resources/image-body.png');
-    }
-
-    .intro__image__text {
-        width: 312px;
-        height: 88px;
-        top: 191px;
-        left: 15px;
-        font-size: 16px;
-        line-height: 25px; 
-    }
-
-    .about {
-        margin-top: 80px;
-    }
-
-    .about__title {
-        font-size: 14px;
-        line-height: 25px;   
-    }
-
-    .about__subtitle {
-        width: 100%; 
-        font-size: 22px;
-        line-height: 29.47px;
-        margin-top: 30px;
-        color: #121212;  
-    }
-
-    .about__btn {
-        width: 100%;
-        height: 51px;
-        border-radius: 4px;
-        font-size: 16px;
-        line-height: 44px;  
     }
 }
