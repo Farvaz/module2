@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Module1</title>
+    <title>Метрика</title>
+
+    <link rel="icon" href="/resources/foviconmetrika.png" type="image.png">
 
     <link rel="stylesheet" href="styles/reset.css">
 
@@ -60,20 +62,32 @@
                 <h2 class="project__title" id="projects">ПРОЕКТЫ</h2>
 
                     <ul class="project__content">               
-                        <li class="project">    
-                            <img class="project__image" src="resources/image-two.png" alt="диван и гитара">      
+                        <li class="project">   
+                            <picture>
+                                <source media="(max-widht: 767px)" srcset="resources/project/image_twomob.png" />
+                                <source media="(max-widht: 1199px)" srcset="resources/project/image-twotable.png"/>
+                                <img class="project__image" src="./resources/project/image-two.png" alt="диван и гитара">     
+                            </picture>                               
                             <h3 class="project__description">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                             <a class="project__link" href="#aboutus">Подробнее →</a>
                         </li>
                     
-                        <li class="project">    
-                            <img class="project__image" src="resources/image-three.jpg" alt="желтые подушки">
+                        <li class="project">  
+                            <picture>
+                                <source media="(max-widht: 767px)" srcset="resources/project/image_threemob.png"/>
+                                <source media="(max-widht: 1199px)" srcset="resources/project/image-threetable.png"/>
+                                <img class="project__image" src="./resources/project/image-three.jpg" alt="желтые подушки">     
+                            </picture>    
                             <h3 class="project__description">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
                             <a class="project__link" href="#aboutus">Подробнее →</a>
                         </li>    
 
-                        <li class="project">                               
-                            <img class="project__image" src="resources/image-four.jpg" alt="черный стол">                                                                 
+                        <li class="project"> 
+                            <picture>
+                                <source media="(max-widht: 767px)" srcset="resources/project/image_fourmob.png"/>
+                                <source media="(max-widht: 1199px)" srcset="resources/project/image-fourtable.png"/>
+                                <img class="project__image" src="./resources/project/image-four.jpg" alt="черный стол">    
+                            </picture>                                                                                                
                             <h3 class="project__description">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>                                   
                             <a class="project__link" href="#aboutus">Подробнее →</a>
                         </li>    

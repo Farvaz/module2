@@ -69,13 +69,13 @@
     }
 
     .intro__title {
-        width: 100%;
+        width: 348px;
         font-size: 30px;
         line-height: 31.62px;   
     }
 
     .intro__image {
-        width: 100%;
+        width: 350px;
         height: 304px;
         margin-top: 25px;
         background-image: url('../resources/intro-image-modile.png');
