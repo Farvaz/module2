@@ -2,6 +2,7 @@
 @import url(../styles/footer.css);
 @import url(../styles/intro.css);
 @import url(../styles/about.css);
+@import url(../styles/services.css);
 
 body {
     font-family: 'Manrope', Courier, monospace;  
@@ -62,38 +63,6 @@ header {
 
 .head__link:last-child {
     margin-right: 0px;
-}
-
-.services { 
-    padding-top: 151px;
-    padding-bottom: 150px;  
-    background-color: #121212;
-}
-
-.services h2 {
-    padding-bottom: 31px;
-    color: #FFFFFF;
-}
-
-.services h3 {
-    font-size: 30px;
-    line-height: 40px;
-}
-
-.services__price {
-    padding-bottom: 60px;
-}
-
-.services__price:last-child {
-    padding-bottom: 0px;
-}
-
-.services__image {
-    margin-bottom: 15px;
-}
-
-.services__description {
-    color: #FFFFFF;
 }
 
 .galleryfullscreen {
