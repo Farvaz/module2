@@ -3,6 +3,9 @@
 @import url(../styles/intro.css);
 @import url(../styles/about.css);
 @import url(../styles/services.css);
+@import url(../styles/gallery.css);
+@import url(../styles/contact.css);
+@import url(../styles/head.css);
 
 body {
     font-family: 'Manrope', Courier, monospace;  
@@ -31,92 +34,16 @@ h3 {
     line-height: 41px;
 }
 
-header {
-    padding-top: 33px;
-}
-
-.head__logo {
-    line-height: 38px;
-    display: inline-block;
-}
-
-.metrika {
-    display: block;
-}
-
-.head__nav {
-    float: right;   
-}
-
-.head__nav a:hover {
-    opacity: 0.5;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-.head__link {
-    margin-right: 60px;
-    font-size: 17.5px;
-    line-height: 26px;
-    text-decoration: none;
-    color: #121212;
-}
-
-.head__link:last-child {
-    margin-right: 0px;
-}
-
-.galleryfullscreen {
-    height: 717px;
-    background-image: url('../resources/poolimage.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    position: relative;
-}
-
-.galleryfullscreen p {
-    position: absolute;
-    bottom: 60px;
-    color: #FFFFFF;
-    width: 443px;
-    font-size: 30.3px;
-    line-height: 42px;
-    letter-spacing: -1px  
-}
-
-.contacts {
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
-
-.contacts h2:before {
-    content: '';
-    display: block;
-    margin-bottom: 13px;
-    width: 24px;
-    height: 24px;
-    background-image: url(../resources/miniphone.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-
-.contacts__item {
-    display: inline-block;
-    margin-top: 25px;
-    font-size: 62px;
-    line-height: 65px;
-    border-bottom: 1px solid transparent;
-    text-decoration: none;
-}
-
-.contacts__item:hover {
-    opacity: 0.5;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-}
 
 @media (max-width: 1199px) {
     .container {
         width: 100%;
+        padding: 0 15px 0 17px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 12px 0 13px;
     }
 }
