@@ -6,11 +6,11 @@
 @import url(../styles/gallery.css);
 @import url(../styles/contact.css);
 @import url(../styles/head.css);
+@import url(../styles/reviews.css);
 
 body {
     font-family: 'Manrope', Courier, monospace;  
-    font-weight: 400;
-    
+    font-weight: 400;  
 }
 
 html{
@@ -27,13 +27,6 @@ h1, h2, h3, div, p, a {
     margin: 0 auto;
     width: 1150px 
 }
-
-
-h3 {
-    font-size: 30px;
-    line-height: 41px;
-}
-
 
 @media (max-width: 1199px) {
     .container {

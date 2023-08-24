@@ -20,7 +20,7 @@
 .intro__image__text {
     width: 430px;
     position: absolute;
-    top: 379px;
+    bottom: 40px;
     left: 40px;
     font-size: 20px;
     line-height: 29px; 
@@ -42,14 +42,15 @@
 
     .intro__image {
         width: 100%; 
+        height: 400px;
         margin-top: 30px;
         background-image: url('../resources/body-image-midle.png');
+        background-size: cover;
     }
 
     .intro__image__text {
         width: 430px;
-        top: 375px;
-        left: 40px;
+        bottom: 30px;
     }
 }
 
@@ -60,7 +61,7 @@
     }
 
     .intro {
-        margin-top: 61px;
+        padding-top: 61px;
     }
 
     .intro__image {
@@ -83,7 +84,7 @@
     .intro__image__text {
         width: 312px;
         height: 88px;
-        top: 198px;
+        bottom: 15px;
         left: 15px;
         font-size: 16px;
         line-height: 22px; 
